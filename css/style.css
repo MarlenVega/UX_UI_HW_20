@@ -16,7 +16,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 87px 115px;
+  padding: 87px 250px;
   box-sizing: border-box;
   align-items: flex-end;
   justify-content: flex-start;
@@ -145,7 +145,7 @@
   .research-parent {
     position: absolute;
     top: 1140px;
-    left: 0;
+    left: 50;
     background-color: var(--color-plum);
     width: 1440px;
     height: 1137px;
@@ -183,7 +183,7 @@
   }
   .im-a-woman-container {
     position: absolute;
-    top: 1200px;
+    top: 1300px;
     left: 125px;
     line-height: 45px;
     font-weight: 300;
@@ -196,16 +196,17 @@
 .redesigning-the-stop {
   position: absolute;
   top: 100px;
-  left: 596px;
+  left: 475px;
   font-size: var(--font-size-21xl);
   line-height: 30px;
   display: inline-block;
   width: 308px;
   height: 57px;
+  font-size: 30px;
 }   
 .redesigning-the-stop {
-    top: 1417px;
-    left: 527px;
+    top: 550px;
+    left: 410px;
     width: 484px;
     height: 44px;
   }
@@ -229,8 +230,8 @@
 }
 .new-macbook-pro-mockup-front-v {
   position: absolute;
-  top: 1037px;
-  left: calc(50% - 325px);
+  top: 640px;
+  left: 250px;
   width: 651px;
   height: 366.23px;
 }
@@ -252,11 +253,11 @@
 }
 .iphone-11-pro-mockup {
   position: absolute;
-  top: 529px;
-  left: 647.35px;
+  top: 175px;
+  left: 300px;
   width: 159.93px;
   height: 298.43px;
-  background-image: url(.iphone-11-pro-mockup-label1);
+  background-image: url(.iphone-11-pro-mockup1);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -279,11 +280,11 @@
 }
 .iphone-11-pro-mockup1 {
   position: absolute;
-  top: 530px;
-  left: 800.95px;
+  top: 175px;
+  left: 505px;
   width: 159.05px;
   height: 296.78px;
-  background-image: url(.ima);
+  background-image: url(.iphone-11-pro-mockup2);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -306,11 +307,11 @@
 }
 .iphone-11-pro-mockup2 {
   position: absolute;
-  top: 50px;
-  left: 496px;
+  top: 175px;
+  left: 710px;
   width: 158.88px;
   height: 296.47px;
-  background-image: url(.iphone-11-pro-mockup);
+  background-image: url(.iphone-11-pro-mockup-label2);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -322,4 +323,81 @@
     height: 1137px;
     font-size: 50px;
 }
+.about-me {
+  top: 50px;
+  left: 60px;
+  width: 1440px;
+  height: 1137px;
+  font-size: 50px;
+}
 
+.about,
+.contact,
+.home,
+.problem-statement,
+.research1,
+.work1 {
+  position: absolute;
+  top: 2000px;
+  left: 487px;
+  line-height: 35px;
+  font-weight: 600;
+  display: inline-block;
+  width: 100px;
+  height: 32px;
+}
+.about,
+.contact,
+.home,
+.problem-statement,
+.research1 {
+  left: 120px;
+  width: 170px;
+}
+.about,
+.contact,
+.home,
+.problem-statement {
+  top: 2146px;
+  left: 730px;
+  width: 90px;
+  height: 26px;
+}
+.contact,
+.home,
+.problem-statement {
+  top: 2000px;
+  left: 731px;
+  width: 142px;
+  height: 30px;
+}
+.home,
+.problem-statement {
+  top: 2146px;
+  left: 486px;
+  width: 90px;
+  height: 29px;
+}
+.problem-statement {
+  top: 2148px;
+  left: 120px;
+  width: 270px;
+  height: 35px;
+}
+.ed9a0fd507968861891b1098f480f4-icon,
+.icon,
+.icon1 {
+  position: absolute;
+  top: 2100px;
+  left: 1100px;
+  width: 69px;
+  height: 69px;
+  object-fit: cover;
+}
+.ed9a0fd507968861891b1098f480f4-icon,
+.icon1 {
+  left: 1000px;
+}
+.ed9a0fd507968861891b1098f480f4-icon {
+  left: 900px;
+}
